@@ -22,7 +22,6 @@ public class TaskController {
 
 
 
-
   @GetMapping("/tasks")
   public String getAll(Model model, @Param("keyword") String keyword) {
     try {
